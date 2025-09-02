@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+Voice AI Agent – Frontend
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is the frontend mobile application for the Voice AI Agent project. It is built using React Native, Expo, and Expo Router, and provides an authentication flow, tab navigation, and interactive pages like Explore and Try Now.
 
-## Get started
+🚀 Features
 
-1. Install dependencies
+🔐 Authentication – Login / Signup screen
 
-   ```bash
-   npm install
-   ```
+🗂 Tabbed Navigation – Built with Expo Router
 
-2. Start the app
+🌈 Explore Tab – Gradient background, description, and navigation buttons
 
-   ```bash
-   npx expo start
-   ```
+Explore → Explore details page
 
-In the output, you'll find options to open the app in a
+Try Now → Interactive page with robot avatar card
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🎨 Modern UI/UX – Styled with gradients, cards, and responsive layouts
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+📂 Project Structure
+Frontend/
+│── app/
+│   ├── (tabs)/
+│   │   ├── _layout.tsx        # Tab navigation setup
+│   │   ├── explore.tsx        # Explore screen with buttons
+│   │   ├── explore-details.tsx# Explore details page
+│   │   ├── try-now.tsx        # Try Now page with robot card
+│   ├── _layout.tsx            # Root layout for navigation
+│   ├── auth.tsx               # Authentication screen entry
+│
+│── components/
+│   ├── AuthScreen.tsx         # Authentication UI component
+│
+│── constants/                 # App constants (colors, text, etc.)
+│── hooks/                     # Custom hooks (if needed)
+│── app.json                   # Expo config
+│── package.json               # Dependencies
+│── tsconfig.json              # TypeScript config
+│── README.md                  # Project documentation
 
-## Get a fresh project
+🛠️ Installation & Setup
 
-When you're ready, run:
+Clone the repository:
 
-```bash
-npm run reset-project
-```
+git clone https://github.com/your-username/voice-ai-agent-frontend.git
+cd voice-ai-agent-frontend
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+Install dependencies:
 
-To learn more about developing your project with Expo, look at the following resources:
+npm install
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Create React Native App
+npx create-expo-app Frontend
+cd Frontend
 
-## Join the community
+Start the project:
 
-Join our community of developers creating universal apps.
+npm start
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+Open on device:
+
+Scan the QR code with the Expo Go app (Android/iOS)
+
+
+📱 Screens Overview
+
+Auth Screen → Login / Signup
+
+Explore Tab → Gradient background, AI Agent description, Explore + Try Now buttons
+
+Explore Details → More details with visuals
+
+Try Now → Card with circular robot avatar
