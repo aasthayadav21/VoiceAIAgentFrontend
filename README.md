@@ -41,7 +41,7 @@ Frontend/
 
 Clone the repository:
 
-git clone https://github.com/your-username/voice-ai-agent-frontend.git
+git clone https://github.com/aasthayadav21/VoiceAIAgentFrontend.git
 cd voice-ai-agent-frontend
 
 
