@@ -37,11 +37,13 @@ Frontend/
 │── tsconfig.json              # TypeScript config
 │── README.md                  # Project documentation
 
+
 🛠️ Installation & Setup
 
 Clone the repository:
 
 git clone https://github.com/aasthayadav21/VoiceAIAgentFrontend.git
+
 cd voice-ai-agent-frontend
 
 
