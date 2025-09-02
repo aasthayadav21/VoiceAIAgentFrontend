@@ -18,8 +18,11 @@ Try Now → Interactive page with robot avatar card
 
 📂 Project Structure
 Frontend/
+
 │── app/
+
 │   ├── (tabs)/
+
 │   │   ├── _layout.tsx        # Tab navigation setup
 │   │   ├── explore.tsx        # Explore screen with buttons
 │   │   ├── explore-details.tsx# Explore details page
@@ -27,10 +30,12 @@ Frontend/
 │   ├── _layout.tsx            # Root layout for navigation
 │   ├── auth.tsx               # Authentication screen entry
 │
+
 │── components/
 │   ├── AuthScreen.tsx         # Authentication UI component
 │
-│── constants/                 # App constants (colors, text, etc.)
+
+│── constants/     # App constants (colors, text, etc.)
 │── hooks/                     # Custom hooks (if needed)
 │── app.json                   # Expo config
 │── package.json               # Dependencies
