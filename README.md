@@ -18,30 +18,24 @@ Try Now → Interactive page with robot avatar card
 
 📂 Project Structure
 Frontend/
-
 │── app/
-
-│   ├── (tabs)/
-
-│   │   ├── _layout.tsx        # Tab navigation setup
-│   │   ├── explore.tsx        # Explore screen with buttons
-│   │   ├── explore-details.tsx# Explore details page
-│   │   ├── try-now.tsx        # Try Now page with robot card
-│   ├── _layout.tsx            # Root layout for navigation
-│   ├── auth.tsx               # Authentication screen entry
+│ ├── (tabs)/
+│ │ ├── _layout.tsx  # Tab navigation setup
+│ │ ├── explore.tsx  # Explore screen with buttons
+│ │ ├── explore-details.tsx # Explore details page
+│ │ ├── try-now.tsx  # Try Now page with robot card
+│ ├── _layout.tsx  # Root layout for navigation
+│ ├── auth.tsx  # Authentication screen entry
 │
-
 │── components/
-│   ├── AuthScreen.tsx         # Authentication UI component
+│ ├── AuthScreen.tsx  # Authentication UI component
 │
-
-│── constants/     # App constants (colors, text, etc.)
-│── hooks/                     # Custom hooks (if needed)
-│── app.json                   # Expo config
-│── package.json               # Dependencies
-│── tsconfig.json              # TypeScript config
-│── README.md                  # Project documentation
-
+│── constants/ # App constants (colors, text, etc.)
+│── hooks/ # Custom hooks (if needed)
+│── app.json # Expo config
+│── package.json # Dependencies
+│── tsconfig.json # TypeScript config
+│── README.md # Project documentation
 
 🛠️ Installation & Setup
 
